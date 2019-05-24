@@ -18,6 +18,6 @@ We've created several notebooks (in python 3.7) to illustrate how to download/re
 
 - [download.ipynb](/download.ipynb): If you prefer to download datasets without GUI. This notebook will show how to download files in bash/python. **Note: It requires installing the [gdown](https://github.com/wkentaro/gdown) package as the datasets are hosted on google drive.**
 - [samples.ipynb](/samples.ipynb): This notebook will show how to read '.json.gz' files line-by-line and display sample records of each file.
-- [statistics.ipynb](/statistics.ipynb): This notebook will calculate some basic statistics of the datasets (except the largest complete interaction file 'goodreads_interactions.csv'. Running this notebook may take a while.
+- [statistics.ipynb](/statistics.ipynb): This notebook will calculate some basic statistics of the datasets (except the largest complete interaction file 'goodreads_interactions.csv'). Running this notebook may take a while.
 - [distributions.ipynb](/distributions.ipynb): This notebook will operate on the complete interaction file 'goodreads_interactions.csv' and provide some explorations of the distributions of these interactions. **Note: Run this notebook only when you have LARGE memory (recommend 32g+)!!**
 
