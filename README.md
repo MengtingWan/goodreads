@@ -1,6 +1,8 @@
-# [Goodreads Datasets](https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home)
+# [Goodreads Datasets](https://mengtingwan.github.io/data/goodreads.html)
 
-The datasets were collected in late 2017 from [goodreads](https://goodreads.com). Details of the datasets are described in the [dataset website](https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home)
+#### NOTE: Our datasets have been moved! Please see our new [webpage](https://mengtingwan.github.io/data/goodreads.html) about how to download these datasets.
+
+The datasets were collected in late 2017 from [goodreads](https://goodreads.com). Details of the datasets are described in the [dataset website](https://mengtingwan.github.io/data/goodreads.html)
 
 **We collected these datasets for academic use only! Please do not redistribute them or use for commercial purposes.**
 
@@ -16,7 +18,7 @@ If you are using our dataset, please cite the following papers:
 
 We've created several notebooks (in python 3.7) to illustrate how to download/read these datasets, and provide some basic explorations of the data.
 
-- [download.ipynb](/download.ipynb): If you prefer to download datasets without GUI. This notebook will show how to download files in bash/python. **Note: It requires installing the [gdown](https://github.com/wkentaro/gdown) package as the datasets are hosted on google drive.**
+- [download.ipynb](/download.ipynb): If you prefer to download datasets without GUI. This notebook will show how to download files in bash/python.
 - [samples.ipynb](/samples.ipynb): This notebook will show how to read '.json.gz' files line-by-line and display sample records of each file.
 - [statistics.ipynb](/statistics.ipynb): This notebook will calculate some basic statistics of the datasets (except the largest complete interaction file 'goodreads_interactions.csv'). Running this notebook may take a while.
 - [distributions.ipynb](/distributions.ipynb): This notebook will operate on the complete interaction file 'goodreads_interactions.csv' and provide some explorations of the distributions of these interactions. **Note: Run this notebook only when you have LARGE memory (recommend 32g+)!!**
